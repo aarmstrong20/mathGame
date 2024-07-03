@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="pikachuFinalScore.png" />
+    <None Remove="pokemonForest.jpg" />
+    <None Remove="PokemonMenu.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="pikachuFinalScore.png" />
+    <Resource Include="pokemonForest.jpg" />
+    <Resource Include="PokemonMenu.png" />
+  </ItemGroup>
+
+</Project>
